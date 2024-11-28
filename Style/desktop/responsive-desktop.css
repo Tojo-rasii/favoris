@@ -3,21 +3,17 @@
         padding: 1.2em 0.5em !important;
     }
 
-    main {
+    /* main {
         width: 99vw !important;
         margin: 0 auto;
-    }
+    } */
 
 
 
 }
 
-@media screen and (min-width: 931px) and (max-width:1071px) {
-    #svgDesktop{
-       width: 55vw;
-       height: auto;
-         }
-}
+@media screen and (min-width: 931px) and (max-width:1071px) {}
+
 @media screen and (min-width: 931px) and (max-width:1071px) {
     nav {
         padding: 1.2em 1em;
@@ -27,10 +23,10 @@
 
     } */
 
-    main {
+    /* main {
         width: 96vw !important;
         margin: 0 auto;
-    }
+    } */
 
 }
 
@@ -43,14 +39,30 @@
 
     } */
 
-    main {
+    /* main {
         width: 65em !important;
         margin: 0 auto;
-    }
+    } */
 
 }
 
-@media screen and (min-width: 1156px) and (max-width:1277px) {
+@media screen and (max-width:1035px) {
+
+    main {
+        width: 92vw !important;
+        margin: 0 auto;
+        /* background: red; */
+    }
+
+   .row-view .div-col figure {
+        flex: 1 !important;
+    }
+
+
+
+}
+
+@media screen and (max-width:1277px) {
 
     nav section {
         width: 100% !important;
@@ -58,8 +70,13 @@
     }
 
     main {
-        width: 65em !important;
+        width: 92vw !important;
         margin: 0 auto;
+        /* background: red; */
+    }
+
+    .row-view .div-col figure {
+        min-width: 48.2% !important;
     }
 
 
